@@ -1,4 +1,4 @@
-def Sumar(numeros):
+def sumar(numeros):
     if numeros == "":
         return 0
     numeros = numeros.split(",")
