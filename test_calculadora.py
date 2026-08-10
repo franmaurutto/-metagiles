@@ -12,7 +12,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(sumar("1,2"), 3)
         self.assertEqual(sumar("4,2"), 6)
     def test_tres_numeros_devuelve_la_suma(self):
-        elf.assertEqual(sumar("1,2,3"), 6)
+        self.assertEqual(sumar("1,2,3"), 6)
 
 
 if __name__ == "__main__":
